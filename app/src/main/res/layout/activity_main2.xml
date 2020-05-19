@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/menEnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje a enviar:"
+        android:textSize="16dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:background="@drawable/diseno_text"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/tipo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo:"
+        android:textSize="16dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkBoxMsj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:fontFamily="serif-monospace"
+        android:text="AGRADABLE" />
+
+    <Button
+        android:id="@+id/btnActualizarMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/diseno_botones"
+        android:text="ACTUALIZAR MENSAJE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nomPer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:text="Nombre de contacto:"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseno_text"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/numTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="Numero de telefono:"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseno_text"
+        android:ems="10"
+        android:textSize="24dp"
+        android:fontFamily="serif-monospace"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo:"
+        android:textSize="16dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkBoxDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:fontFamily="serif-monospace"
+        android:text="AGRADABLE" />
+
+    <Button
+        android:id="@+id/btnGuardarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseno_botones"
+        android:text="GUARDAR DATOS"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/datosGuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATOS GUARDADOS"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/linea2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000" />
+
+    <ListView
+        android:id="@+id/listaA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
